@@ -44,7 +44,7 @@ export default function Home() {
     });
 
     try {
-      const response = await fetch(process.env.NEXT_PUBLIC_API_URL + "/search", {
+      const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_LINK + "search", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
